@@ -1,0 +1,58 @@
+body, html {
+  font-family: 'Tangerine', serif;
+  font-size: 48px;
+  /* perfect full page background from CSS Tricks  */
+ background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+  /* text-align: center; */
+  font-size: 2rem;
+  color: azure;
+}
+.btn{
+  font-weight: 500;
+  border-radius: 300px;
+  text-transform: uppercase;
+  
+ 
+  
+}
+ .btn-xl{ 
+padding: 0.5rem ;
+  max-width: 500px;
+  
+ 
+}
+  
+.btn-primary{
+  background-color: chocolate;
+  border-color: chocolate;
+  
+  }
+ /* background-color: chocolate; cant get color shift but can get the width growth */
+ .btn-primary:hover{ 
+  background-color: chocolate;
+  border-color:white;
+  border-width: 5px;
+
+}
+hr{
+  border-color: chocolate;
+  border-width: 5px;
+  max-width: 65px;
+}
+.buffer{
+  height: 5rem;
+}
+
+/* hr {
+  margin: 20px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;.
+  opacity: 1;  
+} */
