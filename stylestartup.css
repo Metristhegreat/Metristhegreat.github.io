@@ -48,6 +48,11 @@ hr{
 .buffer{
   height: 5rem;
 }
+.container{
+  display: grid;
+  grid-template-columns: auto;
+
+}
 
 /* hr {
   margin: 20px auto;
